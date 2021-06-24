@@ -1,31 +1,52 @@
-.bordaroxa{
+.bordaroxa {
     border: 2px solid purple;
 }
 
-.meucontainer{
-    margin-top: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.profile{
+.profile {
     width: 60%;
-    
+    border-radius: 250000px;
 }
 
-.mt-5{
+.mt-5 {
     margin-top: 5px;
 }
 
-.icons{
+.icons {
     width: 80%;
 }
 
-.mdn{
+.mdn {
     width: 30%;
 }
 
-h4:hover{
+h4:hover {
     color: red;
+    transition: all 0.5s cubic-bezier(.59, -0.75, .34, 1.84);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
+img.profile:hover {
+    transition: all 0.5s cubic-bezier(.59, -0.75, .34, 1.84);
+    box-shadow: 0 0 20px gray;
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+
+img:hover {
+    transition: all 0.5s cubic-bezier(.59, -0.75, .34, 1.84);
+    box-shadow: 0 0 20px gray;
+    transform: scale(1.1);
+}
+
+.iconedarkmode {
+    width: 30%;
+}
+
+body.modo-noturno {
+    background: gray;
+}
+
+body {
+    transition: all 1s ease-in-out;
+}
